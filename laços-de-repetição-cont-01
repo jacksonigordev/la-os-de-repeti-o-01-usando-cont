@@ -36,13 +36,14 @@ namespace Looping_de_repetição_for
         {
             string[] nomes = new string[6] { "Maria", "Jose", "Adolfo", "Rodolfo", "Gonçalves", "Taz" };
 
-            for (int cont = 0; cont < 6; cont++)
-            {
-                Console.WriteLine(nomes[cont]);
-            }
+            for (int cont = 0; cont < nomes.Length; cont++) //nomes.Length é usado para subistituir o valor por exemplo
+            {                                               //era para ser cont < 6 porem com o Lenght podemos retirar o numero
+                Console.WriteLine(nomes[cont]);             //já que uma estrutura profissional muita das vezes você não vai
+            }                                               //saber o valor se é 6 ou mais!
 
                 Console.ReadLine();
             
         }
     }
 }
+
