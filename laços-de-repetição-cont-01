@@ -21,3 +21,28 @@ namespace Looping_de_repetição_for
         }
     }
 }
+***********************************************//////////////////////////////////////////////*********************************************************************
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Looping_de_repetição_for
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            string[] nomes = new string[6] { "Maria", "Jose", "Adolfo", "Rodolfo", "Gonçalves", "Taz" };
+
+            for (int cont = 0; cont < 6; cont++)
+            {
+                Console.WriteLine(nomes[cont]);
+            }
+
+                Console.ReadLine();
+            
+        }
+    }
+}
